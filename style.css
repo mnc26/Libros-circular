@@ -1,0 +1,37 @@
+header {
+    display: flex;
+}
+
+body {
+    background-color: lightgrey;
+    border:5px dotted black;
+    text-decoration: wavy;
+}
+
+.textoCentrado {
+    text-align: center;
+}
+
+.interlineado {
+    line-height: 1.6;
+}
+
+
+section article {
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+}
+
+.fontStyle{
+    font-style: italic;
+}
+
+.FontWeight{
+    font-weight: normal;
+}
+
+.textoRelativo {
+    font-size: 20px;
+}
+
