@@ -11,6 +11,11 @@ body {
     font-family: "Sometype Mono", monospace;
 }
 
+.titulo{
+    text-align: center;
+    text-decoration: underline;
+}
+
 .textoCentrado {
     text-align: center;
 }
