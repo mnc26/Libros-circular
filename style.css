@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,500;1,500;1,600;1,700&display=swap');
+
 header {
     display: flex;
 }
 
 body {
     background-color: lightgrey;
-    border:5px dotted black;
+    border:5px dotted gray;
     text-decoration: wavy;
+    font-family: "Sometype Mono", monospace;
 }
 
 .textoCentrado {
