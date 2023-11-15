@@ -1,34 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,500;1,500;1,600;1,700&display=swap');
-
-header {
-    display: flex;
-}
-
 body {
+    margin: 0px;
+    padding: 0px;
+    display: flexbox;
+    height: auto;
     background-color: lightgrey;
-    border:5px dotted gray;
-    text-decoration: wavy;
-    font-family: "Sometype Mono", monospace;
-}
+    border:2px dotted black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-.titulo{
-    text-align: center;
-    text-decoration: underline;
-}
+    header{
+    background-color: black;
+    font-size: 20px;
+    height: 130px;
+    width: auto;
+    display: flex;
+    image-resolution: 20px;
+    }   
+    
 
-.textoCentrado {
-    text-align: center;
+img {
+    margin: 10px;
 }
 
 .interlineado {
     line-height: 1.6;
 }
 
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+a{
+    color:blue;
+    text-transform: none;
+}
 
 section article {
     background-color: aquamarine;
     width: 500px;
     height: 500px;
+    margin: auto;
 }
 
 .fontStyle{
@@ -43,3 +56,10 @@ section article {
     font-size: 20px;
 }
 
+
+@media (max-width: 1024px) {
+    main{
+        flex-direction: row;
+            background-color: red;
+        }
+    }      

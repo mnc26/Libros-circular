@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="./style.css"/>
-        <title>Document</title>
+        <title>Libros</title>
         <style> 
             div {
                 padding: 5px;
@@ -16,7 +16,6 @@
                 width: 160px;
                 height: 80px;
                 overflow: hidden;
-                padding: 20px;
                 border: 8px solid lightslategrey;
                 background: lightgray;
             }
@@ -25,29 +24,33 @@
 
     <body>
         <header>
-            <h1 class="titulo">Libros Circular</h1>
+            <h1>Libros Circular</h1>
             <nav>
                 <img src="libros.jpg" alt="Imagen de Libros" width="150" height="100">
-            <br>       
             </nav>
-        <br>
-        <a target="_blank" href="queremos_conocerte.html">Querés sumarte?</a>
-        <br> 
+
+            <br>
+            <a target="_blank" href="queremos_conocerte.html">Querés sumarte?</a>
+            <br>
+            <img src="../BA Multiplica/Imagenes/Libros_anteojos.jpg" alt="150px" height="120" > 
         </header>
+        
         <main>
             <section>
                 <h2>¿Qué es y como funciona?</h2>
-            <p>Nuestro sistema permite que traigas un libro y te lleves otro, si no querés leer más, los traes y pueden ser un nuevo descubrimiento para otra persona. Tenemos 4 opciones. </p>
-        <ol>
-            <li> Libros nuevos</li>
-            <li> Libros usados</li>
-            <li> Libros de intercambio</li>
-            <li> Doná tu libro</li>
-        <ol>
+                <img src ="Imagenes/Libros_coloridos.avif" alt="Libros de colores" width="120" height="100">
+                <p>Nuestro sistema permite que traigas un libro y te lleves otro, si no querés leer más, los traes y pueden ser un nuevo descubrimiento para otra persona. Tenemos 4 opciones. </p>
         
-        </dl>
-            <br>
+                <ul>
+                <li>Libros nuevos</li>
+                <li>Libros usados</li>
+                <li>Libros de intercambio</li>
+                <li>Doná tu libro</li>
+                </ul>
+        
+                <br>
             </section>
+            
             <h2>Información Importante</h2>
             <p>En "Libros Circular" consideramos que es muy importante que los libros que están en una estantería por mucho tiempo es mejor que sean incluidos en un sistema ciruclar de leer, regalar o donar. Así permitimos que siempre estén en circulación y ayudando a que el hábito de la lectura en nosotros no desaparezca.</p>
             <button>importante</button>
@@ -59,40 +62,49 @@
             </section>
         
             <section>
-            <form action="method = get"> 
+                <form method="get"> 
+            
+                    <fieldset>
+                        <legend>Comunicate con nosotros</legend>
+                        <label for="Usuario">Nombre</label>
+                        <input type="text" name="Usuario" id="Usuario"/>
+                        <br>
+                
+                        <label for="Passwd">Contraseña</label>
+                        <input type="password" name="Passwd" id="passwd"/>
+                        <br>
+                
+                        <label for="area">Dudas o comentarios?: </label>
+                        <textarea name="area" id="area" cols="30" rows="5"></textarea>
+                        <br>
 
-            </form>
-            <fieldset>
-                <legend>Comunicate con nosotros</legend>
-                <label for="Usuario">Nombre</label>
-                <input type="text" name="Nombre" id="Nombre"/>
-                <br>
+                        <label for="Email">Correo Electrónico: </label>
+                        <input type="email" name="Email" id="email" required placeholder="email@gmail.com"/> 
+                        <br>
 
-                <label for="area">Dudas o comentarios?: </label>
-                <textarea name="area" id="area" cols="30" rows="10"></textarea>
-                <br>
+                        <label for="telefono">Teléfono: </label>
+                        <input type="number" name="telefono" id="telefono" required placeholder="(Con cód. de área ej:+54)"/>
+                        <br>
 
-                <label for="Email">Correo Electrónico: </label>
-                <input type="email" name="email" id="email"/>
-                <br>
+                        <input type="submit">
+                        <input type="reset" value="Borrar"/>
+                        <br>
+                    </fieldset>
 
-                <label for="telefono">Teléfono: </label>
-                <input type="number" name="telefono" id="telefono"/>
-                <br>
+                    <fieldset>
+                        <legend>Marketing y Protección de datos. Art. 27 Ley 25.326</legend>
+                        <div>Acepta que sus datos sean utilizados con fines promocionales?</div>
+                        <br>
 
-                <input type="submit"/>
-                <input type="reset" value="Borrar"/>
+                        <label class="checkbox"><input type="checkbox" checked> Acepta las bases y condiciones?</label>
+                        <br>
+                    </fieldset>  
+                </form>
 
-                <div>Acepta que sus datos sean utilizados con fines promocionales?</div>
-                <input type="checkbox" id="Acepta" name="Si,Acepto" value="Acepto">
-    <label for="Aceptar">Acepta las bases y condiciones</label><br>
-
-
-            </fieldset>
-        </section>    
+            </section>    
         </main>
-        <aside>
-
-        </aside>
+        
+            <aside>
+            </aside>
     </body>
 </html>
