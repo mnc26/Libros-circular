@@ -8,16 +8,66 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
-    header{
-    background-color: black;
+.material-symbols-outlined: :hover{
+    background.color: yellow;
+}
+
+.eltitulo:hover {
+    background-color: aquamarine;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+  'FILL' 100,
+  'wght' 800,
+  'GRAD' 40,
+  'opsz' 94
+
+}
+
+header{
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(230, 179, 85);
     font-size: 20px;
     height: 130px;
     width: auto;
     display: flex;
     image-resolution: 20px;
-    }   
-    
+    justify-content: center;
+    align-items: center;
+}   
 
+main{
+    flex: 2;
+    padding: 0;
+}
+
+div {
+        padding: 5px;
+        display: inline-block;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 160px;
+        height: 80px;
+        overflow: hidden;
+        border: 8px solid lightslategrey;
+        background: lightgray;
+    }
+
+.container {
+    width: 400px;
+    height: 300px;
+    overflow: scroll;
+}    
+
+.box { 
+    width: 250px;
+    min-height: 100px;
+}
+
+    
 img {
     margin: 10px;
 }
@@ -29,7 +79,7 @@ img {
 ul{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 40px;
 }
 
 a{
@@ -60,6 +110,6 @@ section article {
 @media (max-width: 1024px) {
     main{
         flex-direction: row;
-            background-color: red;
+            background-color: yellow;
         }
     }      
